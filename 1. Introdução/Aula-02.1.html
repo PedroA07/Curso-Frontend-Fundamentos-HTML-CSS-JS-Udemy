@@ -1,0 +1,133 @@
+<!--Principais TAGS de HTML-->
+<h1>Aula 02</h1>
+<h2>Principais TAGS de HTML</h2>
+<p>Aqui estão as <b>tags</b> mais usadas em <b>HTML</b>: </p>
+<hr>
+
+<!--Títulos-->
+<h1>Títulos</h1>
+<p>Para inserirmos títulos em HTML, utilizamos a <b>tag</b> <code>&lt;h1&gt;</code> como no exemplo a seguir:</p>
+<!--Exemplo-->
+<p><b>Entrada:</b> <code>&lt;h1&gt;Título&lt;/h1&gt;</code></p>
+<p><b>Saída:</b></p>
+<h1>Título</h1>
+
+<!--Seção de titulos-->
+<p>Mas isso vai muito além de <code>&lt;h1&gt;</code>, podemos usar os títulos com hierarquia, indo do <code>&lt;h1&gt;</code> até o <code>&lt;h6&gt;</code>como segue no exemplo a seguir:</p>
+
+<p><b>Entrada:</b></p>
+<pre><code>
+    &lt;h1&gt;1. Título de Nível 1&lt;/h1&gt;
+    &lt;h2&gt;1.1 Título de Nível 2&lt;/h2&gt;
+    &lt;h3&gt;1.1.1 Título de Nível 3&lt;/h3&gt;
+    &lt;h4&gt;1.1.1.1 Título de Nível 4&lt;/h4&gt;
+    &lt;h5&gt;1.1.1.1.1 Título de Nível 5&lt;/h5&gt;
+    &lt;h6&gt;1.1.1.1.1.1 Título de Nível 6&lt;/h6&gt;
+</code></pre>
+
+<p><b>Saída:</b></p>  
+    <h1>1. Título de Nível 1</h1>
+    <h2>1.1 Título de Nível 2</h2>
+    <h3>1.1.1 Título de Nível 3</h3>
+    <h4>1.1.1.1 Título de Nível 4</h4>
+    <h5>1.1.1.1.1 Título de Nível 5</h5>
+    <h6>1.1.1.1.1.1 Título de Nível 6</h6>
+<!--Fim da seção de titulos -->
+<hr>
+
+<!--Parágrafos-->
+<h1>Parágrafos</h1>
+<p>Para inserirmos parágrafos no HTML, utilizamos a <b>tag</b> <code>&lt;p&gt;</code>, como segue no exeplo a seguir:</p>
+<!--Exemplo-->
+<p><b>Entrada:</b> <code>&lt;p&gt;Parágrafo&lt;p&gt;</code></p>
+<p><b>Saída: </b></p>
+<p>Parágrafo</p>
+<hr>
+
+<!--Quebra de linha-->
+<h1>Quebra de linha</h1>
+<p>Para inserirmos uma quebra de linha, utilizamos a <b>tag</b> <code>&lt;br&gt;</code>, dentro do nosso título ou parágrafos, como segue nos exemplos a seguir:</p>
+<!--Exemplo-->
+<p><b>Entrada:</b> <code>&lt;p&gt;Isso é uma &lt;br&gt; quebra de linha.&lt;p&gt;</code></p>
+<p><b>Saída:</b></p>
+<p>Isso é uma <br> quebra de linha.</p>
+<hr>
+
+<!--Quebra de linha temática-->
+<h1>Quebra de linha temática</h1>
+<p>Para inserirmos uma quebra de linha temática, utilizamos a <b>tag</b> <code>&lt;hr&gt;</code>. Ela é geralmente usada para criar uma mudança da cena de uma história, ou uma mudança de tema com uma seção.<br>
+Como segue no exemplo a seguir:</p>
+<!--Exemplo-->
+<p><b>Entrada:</b> <code>&lt;hr&gt;</code></p>
+<p><b>Saída:</b></p>
+<hr><br>
+<hr>
+
+<!--Links-->
+<h1>Links</h1>
+<p>Em HTML é possível inserír links de conexões, tanto <b>links internos</b>, para chamadas dentro do HTML, quanto <b>links externos</b>, para chamadas de terceiros.</p>
+<p>Os links são chamados através da <b>tag</b> &lt;a&gt;.<br>
+Dentro da <b>tag</b> &lt;a&gt; utilizaremos duas propriedades com mais frequência:</p>
+<ul>
+    <li><b>href="url"</b> - Colocaremos o caminho do arquivo ou o link do site, dentro das <b>" "</b> onde está escrito <b>url</b>.</p></li>
+    <li><b>target="_blank"</b> - Colocaremos a propriedade <b>target="_blank"</b> para abrir o link em uma nova aba.</p></li>
+</ul>
+<!--Link interno-->
+<h2>Link Interno</h2>
+<p>Links internos são aqueles que fazem chamados à arquivos pertencentes ao projeto.<br>
+<br><b>Exemplo:</b></p>
+<p><b>Entrada:</b><code> &lt;p&gt;Veja meu primeiro HTML, criado na &lt;a href="Aula-01.html"&gt;Aula 01&lt;/a&gt;!&lt;/p&gt;</code></p>
+<p><b>Saída:</b></p>
+<p>Veja meu primeiro HTML, criado na <a href="Aula-01.html">Aula 01</a>!</p>
+
+<!--Link externo-->
+<h2>Link Externo</h2>
+<p>Links externos são aqueles que fazem chamados à arquivos ou sites que não pertencem ao projeto.<br>
+<br><b>Exemplo:</b></p>
+<p><b>Entrada:</b><code> &lt;p&gt;Para acessar a página do Google clique &lt;a href="http://www.google.com/"&gt;aqui&lt;/a&gt;!&lt;/p&gt;</code></p>
+<p><b>Saída:</b></p>
+<p>Para acessar a página do Google clique <a href="https://www.google.com/" target="_blank">aqui</a>!</p>
+<hr>
+
+<!--Listas-->
+<h1>Listas</h1>
+<p>Para inserirmos listas no HTML, utilizamos as <b>tag</b> <code>&lt;ul&gt;</code> para <b>listas ordenadas</b> e a <b>tag</b> <code>&lt;ol&gt;</code> para <b>listas numeradas</b>, e por fim a <b>tag</b> <code>&lt;li&gt;</code> para criar as linhas, como segue nos exemplos a seguir:</p>
+<!--Exemplos-->
+<h2>Lista Ordenada</h2>
+<p><b>Entrada:</b></p>
+<pre><code>
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="Aula-01.html"&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;mark&gt;Item 2&lt;/mark&gt;&lt;/li&gt;
+        &lt;li&gt;Item 3&lt;/li&gt;    
+    &lt;/ul&gt;
+</code></pre>
+<p><b>Saída:</b></p>
+<ul>
+    <li><a href="Aula-01.html">Item 1</a></li>
+    <li><mark>Item 2</mark></li>
+    <li>Item 3</li>
+</ul>
+
+<h2>Lista Numerada</h2>
+<p><b>Entrada:</b></p>
+<pre><code>
+    &lt;ol&gt;
+        &lt;li&gt;&lt;a href="https://www.google.com/" target="_blank""&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;mark&gt;Item 2&lt;/mark&gt;&lt;/li&gt;
+        &lt;li&gt;Item 3&lt;/li&gt;    
+    &lt;/ol&gt;
+</code></pre>
+<p><b>Saída:</b></p>
+<ol>
+    <li><a href="https://www.google.com/" target="_blank">Item 1</a></li>
+    <li><mark>Item 2</mark></li>
+    <li>Item 3</li>
+</ol>
+<hr>
+
+<p>O <strong>HTML5</strong> é a <i>linguagem de marcação de hipertexto</i> e serve para criar páginas na web.
+        <em>Atenção</em>:
+        <strong>HTML5</strong> <b>não</b> é uma
+        linguagem de programação.
+</p>
